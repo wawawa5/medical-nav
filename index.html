@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ジャパン・メディカル・ナビゲーター | がんという迷路を、専門家の導きと共に</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Shippori+Mincho:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            scroll-behavior: smooth;
+        }
+        h1, h2, h3 {
+            font-family: 'Shippori Mincho', serif;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #0ea5e9, #6366f1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        .hero-pattern {
+            background-image: radial-gradient(#e2e8f0 1px, transparent 1px);
+            background-size: 30px 30px;
+        }
+    </style>
+</head>
+<body class="bg-[#fcfcfd] text-slate-900">
+
+    <!-- ナビゲーション -->
+    <nav class="fixed w-full z-50 bg-white/70 backdrop-blur-lg border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold text-slate-900 tracking-tighter">JAPAN MEDICAL<span class="text-sky-500"> NAVIGATOR</span></span>
+                </div>
+                <div class="hidden md:flex space-x-10 text-xs font-bold uppercase tracking-widest text-slate-500">
+                    <a href="#philosophy" class="hover:text-sky-600 transition">理念</a>
+                    <a href="#technology" class="hover:text-sky-600 transition">最先端技術</a>
+                    <a href="#services" class="hover:text-sky-600 transition">サービス</a>
+                    <a href="#contact" class="bg-slate-900 text-white px-7 py-3 rounded-full hover:bg-sky-600 transition-all shadow-md">相談を予約する</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ヒーローセクション: 「迷路」のコンセプト -->
+    <header class="relative pt-32 pb-20 lg:pt-52 lg:pb-40 hero-pattern">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 relative z-10 text-center">
+            <div class="inline-block px-4 py-1.5 mb-6 text-sm font-bold tracking-widest text-sky-600 bg-sky-50 rounded-full">
+                標準治療の先にある選択肢を
+            </div>
+            <h1 class="text-5xl lg:text-7xl font-bold leading-tight mb-8">
+                がんという迷路を、<br>
+                <span class="gradient-text">一人で歩まないでください。</span>
+            </h1>
+            <p class="text-xl lg:text-2xl text-slate-500 mb-12 max-w-3xl mx-auto leading-relaxed">
+                選択肢が限られ、自国の待機リストが伸び続ける時、私たちは日本の**陽子線治療**をはじめとする最先端医療の現場へあなたを導き、回復への道を共に見つけ出します。
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+                <a href="#contact" class="px-10 py-5 bg-slate-900 text-white rounded-2xl text-lg font-bold hover:bg-sky-600 transition-all shadow-xl">治療可否チェックを開始</a>
+                <a href="#philosophy" class="px-10 py-5 bg-white text-slate-900 border border-slate-200 rounded-2xl text-lg font-bold hover:bg-slate-50 transition-all">私たちの理念</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 理念: ナビゲーターとしての役割 -->
+    <section id="philosophy" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="lg:flex lg:items-center lg:gap-24">
+                <div class="lg:w-1/2 mb-16 lg:mb-0">
+                    <div class="relative">
+                        <div class="absolute -top-10 -left-10 w-40 h-40 bg-sky-100 rounded-full opacity-50 blur-3xl"></div>
+                        <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=800" alt="リード・ナビゲーター" class="relative z-10 rounded-[3rem] shadow-2xl grayscale-[20%]">
+                        <div class="absolute -bottom-10 -right-10 glass-card p-8 rounded-3xl shadow-xl z-20 max-w-xs border-sky-100">
+                            <p class="text-slate-900 font-bold italic mb-4">「私たちは単に病院を紹介するだけではありません。あなたの生存のための『戦略的ロードマップ』を共に構築します」</p>
+                            <p class="text-sm text-slate-400">— リード・ナビゲーター ＆ 専門通訳</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2">
+                    <h2 class="text-4xl lg:text-5xl font-bold mb-10 leading-tight">日本医療の現場を知る、<br><span class="text-sky-500">あなたの「声」として。</span></h2>
+                    <p class="text-lg text-slate-600 mb-8 leading-relaxed">
+                        日本の医療システムは、海外の患者様にとって複雑な「迷路」のように感じられるかもしれません。病院が「治療」を提供するなら、私たちはあなたが必要とする<strong>「戦略・透明性・そして個別の擁護（アドボカシー）」</strong>を提供します。
+                    </p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                        <div>
+                            <h4 class="text-xl font-bold mb-3 text-slate-900">専門的な医療翻訳</h4>
+                            <p class="text-slate-500 text-sm">複雑な医療記録を、専門医が即座に判断できるプロフェッショナルな日本語の書類へと変換します。</p>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold mb-3 text-slate-900">独立した中立性</h4>
+                            <p class="text-slate-500 text-sm">私たちは独立したナビゲーターです。特定の病院ではなく、常に「患者様の利益」を最優先に行動します。</p>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold mb-3 text-slate-900">現場の交渉力</h4>
+                            <p class="text-slate-500 text-sm">日本の医療界の暗黙のルールを熟知し、迅速な回答を得るための適切なアプローチを行います。</p>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold mb-3 text-slate-900">グローバル基準</h4>
+                            <p class="text-slate-500 text-sm">国際的な「生存戦略（サバイバーシップ）」の枠組みを、日本の精密な放射線治療に適用します。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技術セクション: 科学に基づいた希望 -->
+    <section id="technology" class="py-24 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl lg:text-6xl font-bold mb-6">日本が誇る医療の優位性</h2>
+                <p class="text-xl text-slate-400">世界が注目する粒子線治療を、日本の専門施設で社会実装する。</p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12">
+                <div class="p-10 bg-white/5 rounded-[2.5rem] border border-white/10">
+                    <div class="text-sky-400 text-sm font-bold tracking-widest mb-4 uppercase">高度粒子線治療</div>
+                    <h3 class="text-3xl font-bold mb-6">陽子線治療 (Proton Therapy)</h3>
+                    <p class="text-slate-400 leading-relaxed mb-8">従来のX線治療とは異なり、がん細胞でエネルギーを放出した後に停止する「ブラッグピーク」という性質を利用します。これにより、周囲の健康な組織への影響を劇的に抑え、強い放射線をがん細胞に集中させることが可能です。</p>
+                    <div class="flex items-center space-x-4">
+                        <div class="px-4 py-2 bg-sky-500/20 text-sky-400 rounded-full text-xs font-bold">世界トップクラスの設備</div>
+                        <div class="px-4 py-2 bg-emerald-500/20 text-emerald-400 rounded-full text-xs font-bold">副作用の低減</div>
+                    </div>
+                </div>
+                <div class="p-10 bg-white/5 rounded-[2.5rem] border border-white/10">
+                    <div class="text-purple-400 text-sm font-bold tracking-widest mb-4 uppercase">次世代の早期診断</div>
+                    <h3 class="text-3xl font-bold mb-6">プレミアム人間ドック</h3>
+                    <p class="text-slate-400 leading-relaxed mb-8">日本の「人間ドック」は、超高感度なPET-CTやMRIプロトコルを用い、標準的な検診では見逃されがちな微細な病変も早期に発見するために設計されています。</p>
+                    <div class="flex items-center space-x-4">
+                        <div class="px-4 py-2 bg-purple-500/20 text-purple-400 rounded-full text-xs font-bold">超早期がん発見</div>
+                        <div class="px-4 py-2 bg-amber-500/20 text-amber-400 rounded-full text-xs font-bold">全身精密スキャン</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- サービス: 明確なアクションプラン -->
+    <section id="services" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl font-bold mb-4">ナビゲーション・パッケージ</h2>
+                <p class="text-slate-500">明確なステップ、透明性のある価格、そしてプロフェッショナルなケア。</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- サービス 1 -->
+                <div class="p-10 bg-white rounded-[2rem] shadow-sm border border-slate-100 hover:shadow-xl transition-all">
+                    <h3 class="text-xl font-bold mb-2">Step 1: 治療可否チェック</h3>
+                    <p class="text-sm text-slate-400 mb-6 uppercase tracking-wider">一次検証</p>
+                    <p class="text-slate-600 mb-8 text-sm">あなたの医療記録を専門的に翻訳し、日本の**陽子線治療専門センター**等へ公式に打診を行います。</p>
+                    <div class="text-3xl font-bold mb-8">¥200,000 <span class="text-sm font-normal text-slate-400">（固定）</span></div>
+                    <a href="#contact" class="block w-full py-4 text-center border-2 border-slate-900 rounded-xl font-bold hover:bg-slate-900 hover:text-white transition">可否チェックを申し込む</a>
+                </div>
+
+                <!-- サービス 2: 注目 -->
+                <div class="p-10 bg-slate-900 text-white rounded-[2rem] shadow-2xl scale-105 border border-sky-500/30">
+                    <h3 class="text-xl font-bold mb-2 text-sky-400">フルコーディネート</h3>
+                    <p class="text-sm text-slate-500 mb-6 uppercase tracking-wider">迷路のガイド</p>
+                    <p class="text-slate-400 mb-8 text-sm">滞在中のすべてのロジスティクスを管理。あなたが「治療と回復」だけに集中できる環境を整えます。</p>
+                    <div class="text-3xl font-bold mb-8">個別お見積り</div>
+                    <a href="#contact" class="block w-full py-4 text-center bg-sky-500 text-white rounded-xl font-bold hover:bg-sky-400 transition shadow-lg shadow-sky-500/20">フルサポートを依頼する</a>
+                </div>
+
+                <!-- サービス 3 -->
+                <div class="p-10 bg-white rounded-[2rem] shadow-sm border border-slate-100 hover:shadow-xl transition-all">
+                    <h3 class="text-xl font-bold mb-2">予防医療ドック</h3>
+                    <p class="text-sm text-slate-400 mb-6 uppercase tracking-wider">早期発見の究極形</p>
+                    <p class="text-slate-600 mb-8 text-sm">世界で最も精密な健康診断へアクセス。富裕層やそのご家族に最適な、長寿のための投資プランです。</p>
+                    <div class="text-3xl font-bold mb-8">¥200,000〜 <span class="text-sm font-normal text-slate-400">（基本料金）</span></div>
+                    <a href="#contact" class="block w-full py-4 text-center border-2 border-slate-900 rounded-xl font-bold hover:bg-slate-900 hover:text-white transition">検診プランを見る</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- コンタクト: プロフェッショナルかつ安全 -->
+    <section id="contact" class="py-24 bg-white relative">
+        <div class="max-w-4xl mx-auto px-6 lg:px-8">
+            <div class="bg-slate-900 rounded-[3.5rem] p-10 md:p-20 text-white shadow-2xl relative overflow-hidden">
+                <div class="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 bg-sky-500/20 rounded-full blur-3xl"></div>
+                
+                <h2 class="text-4xl font-bold mb-6 text-center">生存戦略を今、始めましょう</h2>
+                <p class="text-slate-400 text-center mb-12">詳細をご入力ください。リード・ナビゲーターが24時間以内に内容を確認し、直接ご連絡いたします。</p>
+                
+                <form id="inquiryForm" class="space-y-6">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <input type="text" required class="w-full bg-slate-800/50 border border-slate-700 rounded-2xl px-6 py-4 focus:ring-2 focus:ring-sky-500 text-white outline-none" placeholder="お名前（フルネーム）">
+                        <input type="email" required class="w-full bg-slate-800/50 border border-slate-700 rounded-2xl px-6 py-4 focus:ring-2 focus:ring-sky-500 text-white outline-none" placeholder="メールアドレス">
+                    </div>
+                    <select class="w-full bg-slate-800/50 border border-slate-700 rounded-2xl px-6 py-4 focus:ring-2 focus:ring-sky-500 text-white outline-none appearance-none">
+                        <option>居住地: オセアニア（豪州・NZ）</option>
+                        <option>居住地: 東南アジア</option>
+                        <option>居住地: 欧州・北米</option>
+                        <option>居住地: その他</option>
+                    </select>
+                    <textarea required rows="5" class="w-full bg-slate-800/50 border border-slate-700 rounded-2xl px-6 py-4 focus:ring-2 focus:ring-sky-500 text-white outline-none" placeholder="現在の診断状況、または健康上の目標について教えてください..."></textarea>
+                    <button type="submit" class="w-full py-5 bg-sky-500 text-white rounded-2xl font-bold text-xl hover:bg-sky-400 transition-all shadow-xl shadow-sky-500/30">安全な相談をリクエストする</button>
+                    <p class="text-[10px] text-slate-500 text-center mt-6 uppercase tracking-widest">機密保持の徹底 • 独立したレビュー • 全世界への患者サポート</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="bg-[#fcfcfd] border-t border-slate-100 py-16">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center text-slate-400 text-sm">
+            <div class="mb-8 md:mb-0">
+                <span class="text-slate-900 font-bold tracking-tighter uppercase">Japan Medical Navigator</span>
+                <p class="mt-2">福島を拠点に、世界を救う。</p>
+            </div>
+            <div class="flex space-x-10">
+                <a href="#" class="hover:text-slate-900 transition">プライバシーポリシー</a>
+                <a href="#" class="hover:text-slate-900 transition">免責事項</a>
+                <a href="#" class="hover:text-slate-900 transition">お問い合わせ</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('inquiryForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const form = this;
+            form.innerHTML = `
+                <div class="text-center py-20 animate-pulse">
+                    <div class="w-24 h-24 bg-sky-500 rounded-full flex items-center justify-center mx-auto mb-8 shadow-2xl shadow-sky-500/40">
+                        <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    </div>
+                    <h3 class="text-3xl font-bold mb-4">リクエストを送信しました</h3>
+                    <p class="text-slate-400">医療ナビゲーターが情報を確認しております。24時間以内に、安全なメールにてお返事を差し上げます。</p>
+                </div>
+            `;
+        });
+    </script>
+</body>
+</html>
